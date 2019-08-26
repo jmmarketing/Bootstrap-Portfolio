@@ -8,10 +8,11 @@
 
     <title>Contact | Jeff McLean Portfolio</title>
 </head>
-<body style="background-image: url(assets/images/funky-lines.png); background-repeat: repeat;">
+<body class="position-relative" style="background-image: url(assets/images/funky-lines.png); background-repeat: repeat; min-height:100vh; padding-bottom:100px;">
+
 
     <!-- Navigation Bar-->
-    <nav class="navbar navbar-expand-md bg-light navbar-light mb-4 p-0 border-bottom border-dark id="mainNav">
+    <nav class="navbar navbar-expand-md bg-light navbar-light mb-4 p-0 border-bottom border-dark sticky-top" id="mainNav">
             <div class="container">
               <a class="navbar-brand text-light bg-warning p-2" href="index.html"><h2>Jeff McLean</h2></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -79,7 +80,8 @@
 
 
     <!--Footer-->
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50 fixed-bottom border-top border-warning" style="border-width:4px !important;">
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50 position-absolute border-top border-warning "
+    style="border-width:4px !important; bottom:0; width:100%;">
             <div class="container text-center">
               <small>Copyright &copy; 2019</small>
             </div>
