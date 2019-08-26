@@ -18,6 +18,26 @@
     height:auto;
 }
 
+.cellBlock{
+    position:relative
+}
+
+.textOverlay{
+    position:absolute;
+    bottom: 10%;
+    color:white;
+    text-align: center;
+    background-color:goldenrod;
+    width: calc(100% - 30px);
+    padding: 5% 0;
+    opacity:.8;
+}
+
+.textOverlay:hover{
+    font-weight:bolder;
+    opacity:1;
+}
+
 </style>
 
 
@@ -68,11 +88,13 @@
         <!-- Portfolio-->
         <!-- Row 1-->
         <div class="row">
-                <div class="col-sm mb-2">
+                <div class="col-sm mb-2 cellBlock">
                         <img class="rounded fullW" src="http://fpoimg.com/300x300?text=Advertisement">
+                        <div class="textOverlay">Example Item</div>
                 </div>
                 <div class="col-sm mb-2">
                         <img class="rounded fullW" src="http://fpoimg.com/300x300?text=Advertisement">
+                        <div class="textOverlay">Example Item</div>
                 </div>
                 <div class="col-sm mb-2">
                   
@@ -83,9 +105,11 @@
         <div class="row">
                 <div class="col-sm mb-2">
                         <img class="rounded fullW" src="http://fpoimg.com/300x300?text=Advertisement">
+                        <div class="textOverlay">Example Item</div>
                 </div>
                 <div class="col-sm mb-2">
                         <img class="rounded fullW" src="http://fpoimg.com/300x300?text=Advertisement">
+                        <div class="textOverlay">Example Item</div>
                 </div>
                 <div class="col-sm mb-2">
                   
@@ -96,6 +120,7 @@
         <div class="row">
                 <div class="col-sm mb-2">
                         <img class="rounded fullW" src="http://fpoimg.com/300x300?text=Advertisement">
+                        <div class="textOverlay">Example Item</div>
                 </div>
                 <div class="col-sm mb-2">
                  
